@@ -8,6 +8,11 @@
   </head>
   <body>
     <div id="root"></div>
+    <!-- we are using vite that's why the script is loaded inside the index.html page -->
+    <!-- but if we create react project using directly react -->
+    <!-- react gives us 3 dependiencies: 1) react 2) reactDOM 3) reactScript  -->
+    <!-- here reactScript will directly add script -->
+    <!-- Vite only gives us 2 dependiences: react and reactDOM -->
     <script type="module" src="/src/main.jsx"></script>
   </body>
 </html>
