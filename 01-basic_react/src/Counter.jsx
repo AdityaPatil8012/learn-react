@@ -6,13 +6,13 @@ function Counter(){
     let [count, setCount] = useState(0);
 
   const increaseValue = ()=>{
-    if(count >= 0 && count <= 19){
+    if(count >= 0 && count < 20){
       setCount(count + 1);
     }
   }
 
   const decreaseValue = () => {
-    if(count >= 1 && count <= 20 ){
+    if(count > 0 && count <= 20 ){
       
       setCount(count - 1);
     }
